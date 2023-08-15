@@ -1,0 +1,109 @@
+.footer {
+   background-color: #151515;
+   padding-top: 60px;
+
+   .container {
+      max-width: 1300px;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 15px;
+      margin: 0 auto;
+   }
+
+   &__info {
+      line-height: 24px;
+
+      p:first-of-type {
+         max-width: 369px;
+         color: #A2A2A2;
+         padding: 38px 100px 22px 0;
+      }
+
+      p:last-of-type {
+         font-size: 12px;
+         color: #989898;
+         opacity: 0.4;
+         padding: 60px 0 2px;
+      }
+   }
+
+   &__media {
+      display: flex;
+      gap: 15px;
+
+      a {
+         height: 16px;
+         transition: all 0.3s ease;
+
+         &:hover {
+            scale: 1.2;
+         }
+      }
+   }
+
+   &__links {
+      h3 {
+         padding-bottom: 30px;
+      }
+
+      a {
+         display: block;
+         font-size: 12px;
+         line-height: 30px;
+         color: #A2A2A2;
+
+         &:hover {
+            color: #fff;
+         }
+      }
+   }
+
+   &__contact {
+      h3 {
+         padding-bottom: 30px;
+      }
+
+      a {
+         display: block;
+         font-size: 12px;
+         line-height: 30px;
+         color: #A2A2A2;
+
+         &:last-of-type {
+            margin-top: 30px;
+         }
+
+         &:hover {
+            color: #fff;
+         }
+      }
+   }
+
+   &__insta {
+      h3 {
+         padding-bottom: 30px;
+      }
+   }
+
+   &__photos {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+
+      div {
+         background: #C4C4C4;
+
+         &:hover button {
+            opacity: 1;
+         }
+
+         button {
+            opacity: 0;
+            width: 70px;
+            height: 70px;
+            font-size: 36px;
+            color: #fff;
+         }
+      }
+   }
+}
