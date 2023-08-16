@@ -5,23 +5,23 @@
    align-items: center;
    padding: 0 15px;
    margin: 0 auto;
+   position: relative;
 }
 
 .reviews {
    background: url(../../../../static/images/reviewsCover.png) no-repeat center center / cover;
    padding: 330px 0 200px;
-   position: relative;
 
    .bubbleTop {
       position: absolute;
-      left: 161px;
-      top: 471px;
+      left: -40px;
+      top: -70px;
    }
 
    .bubbleBottom {
       position: absolute;
-      right: 126px;
-      bottom: 282px;
+      right: -90px;
+      bottom: -30px;
    }
 
    h2 {
