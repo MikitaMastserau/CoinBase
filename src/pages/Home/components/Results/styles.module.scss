@@ -1,0 +1,48 @@
+.money {
+   background: url(../../../../static/images/moneyCover.png) no-repeat center center / cover;
+   padding: 250px 0 170px;
+
+   &__info {
+      width: 1158px;
+      display: flex;
+      justify-content: space-between;
+      background-color: #fff;
+      border-radius: 30px;
+      box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.25);
+      padding: 50px 60px;
+      margin: 0 auto;
+   }
+
+   &__tab {
+      width: 315px;
+      display: flex;
+      flex-direction: column;
+      gap: 19px;
+      text-align: center;
+      line-height: normal;
+
+      h4 {
+         font-size: 18px;
+         font-weight: 700;
+         text-align: center;
+         background: linear-gradient(180deg, #FD749B 10%, #281AC8 100%);
+         background-clip: text;
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+      }
+
+      hr {
+         width: 150px;
+         height: 2px;
+         align-self: center;
+         background-color: #bbb;
+      }
+
+      ul {
+         display: flex;
+         flex-direction: column;
+         gap: 15px;
+         color: #333;
+      }
+   }
+}
