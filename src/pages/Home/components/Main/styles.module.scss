@@ -1,0 +1,39 @@
+.container {
+   width: 1200px;
+   display: flex;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+
+.main {
+   background: url(../../../../static/images/mainCover.svg) no-repeat center center / cover;
+   padding: 60px 0 237px;
+
+   &__content {
+      padding: 60px 0 0;
+
+      h1 span {
+         font-weight: 700;
+      }
+
+      p {
+         font-size: 18px;
+         font-weight: 400;
+         line-height: normal;
+         color: #FFF;
+         padding: 21px 0 30px;
+      }
+
+      button {
+         width: 157px;
+         font-size: 14px;
+         font-weight: 700;
+         text-align: center;
+         text-transform: uppercase;
+         color: #8e48ff;
+         border-radius: 100px;
+         background-color: #FFF;
+         padding: 20px 0;
+      }
+   }
+}
