@@ -11,7 +11,7 @@ import "./styles.scss";
 export const Blog = () => {
    return (
       <section className="blog" id="blog">
-         <div className="container">
+         <div className="blogContainer">
             <div className="blog__hat">
                <GradientTitle text="Our blog" />
                <Line />
