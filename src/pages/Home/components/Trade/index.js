@@ -1,5 +1,5 @@
 import { GradientTitle } from "components/GradientTitle";
-import { Line } from "../Line";
+import { Line } from "../../../../components/Line";
 
 import tradeBitcoin from "static/icons/tradeBitcoin.svg";
 import gift from "static/icons/gift.svg";
@@ -8,7 +8,7 @@ import styles from "./styles.module.scss";
 
 export const Trade = () => {
    return (
-      <section className={styles.trade}>
+      <section className={styles.trade} id="sell">
          <div className={styles.trade__card}>
             <GradientTitle text="Trade from anywhere" />
             <Line />

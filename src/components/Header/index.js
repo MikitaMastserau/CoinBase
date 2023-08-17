@@ -11,10 +11,10 @@ export const Header = () => {
             <a className={styles.header__logo} href="#header"><img src={mainLogo} alt="" /></a>
             <div className={styles.header__menu}>
                <nav>
-                  <a href="#header">Home</a>
-                  <a href="#header">About Us</a>
-                  <a href="#header">Blog</a>
-                  <a href="#header">Contact Us</a>
+                  <a href="#home">Home</a>
+                  <a href="#about">About Us</a>
+                  <a href="#blog">Blog</a>
+                  <a href="#contact">Contact Us</a>
                </nav>
                <Dropdown />
                <Button text={"login"} />

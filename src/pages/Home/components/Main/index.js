@@ -4,7 +4,7 @@ import styles from "./styles.module.scss";
 
 export const Main = () => {
    return (
-      <main className={styles.main}>
+      <main className={styles.main} id="home">
          <div className={styles.container}>
             <div className={styles.main__content}>
                <h1>

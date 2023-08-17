@@ -1,5 +1,5 @@
 import { GradientTitle } from "components/GradientTitle";
-import { Line } from "../Line";
+import { Line } from "../../../../components/Line";
 import { Button } from "components/Button";
 
 import welcomeImage from "static/images/welcomeImage.png";
@@ -8,7 +8,7 @@ import styles from "./styles.module.scss";
 
 export const Welcome = () => {
    return (
-      <section className={styles.welcome}>
+      <section className={styles.welcome} id="about">
          <div className={styles.container}>
             <img src={welcomeImage} alt="" />
             <div className={styles.welcome__content}>

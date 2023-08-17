@@ -10,8 +10,8 @@ export const Dropdown = () => {
             <img src={trigonIcon} alt="" />
             <input type="checkbox" />
             <div className={styles.dropdown__links}>
-               <a href="/CoinBase">Sell Bitcoin</a>
-               <a href="/CoinBase">Sell Giftcard</a>
+               <a href="#sell">Sell Bitcoin</a>
+               <a href="#sell">Sell Giftcard</a>
             </div>
          </label>
       </div>
