@@ -5,6 +5,8 @@ import { Experience } from "../Experience";
 import { Trade } from "../Trade";
 import { Blog } from "../Blog";
 import { Reviews } from "../Reviews";
+import { Download } from "../Download";
+import { Subscribe } from "../Subscribe";
 
 export const HomeLayout = () => {
    return (
@@ -16,6 +18,8 @@ export const HomeLayout = () => {
          <Trade />
          <Blog />
          <Reviews />
+         <Download />
+         <Subscribe />
       </>
    )
 };

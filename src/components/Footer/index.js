@@ -23,11 +23,11 @@ export const Footer = () => {
             </div>
             <div className={styles.footer__links}>
                <h3>CoinBase Links</h3>
-               <a href="#footer">Home</a>
-               <a href="#footer">About Us</a>
-               <a href="#footer">Blog</a>
-               <a href="#footer">Sell</a>
-               <a href="#footer">Contact Us</a>
+               <a href="#home">Home</a>
+               <a href="#about">About Us</a>
+               <a href="#blog">Blog</a>
+               <a href="#sell">Sell</a>
+               <a href="#contact">Contact Us</a>
             </div>
             <div className={styles.footer__contact}>
                <h3>Contact Us</h3>

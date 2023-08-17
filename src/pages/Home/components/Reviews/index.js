@@ -1,4 +1,4 @@
-import { Line } from "../Line";
+import { Line } from "../../../../components/Line";
 
 import bubble1 from "static/icons/bubble1.svg";
 import bubble2 from "static/icons/bubble2.svg";

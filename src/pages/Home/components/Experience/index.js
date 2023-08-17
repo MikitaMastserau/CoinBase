@@ -1,5 +1,5 @@
 import { GradientTitle } from "components/GradientTitle";
-import { Line } from "../Line";
+import { Line } from "../../../../components/Line";
 import { Button } from "components/Button";
 
 import expImage from "static/images/expImage.png";

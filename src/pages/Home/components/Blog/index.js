@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow } from "swiper/modules";
 
 import { GradientTitle } from "components/GradientTitle";
-import { Line } from "../Line";
+import { Line } from "../../../../components/Line";
 
 import "swiper/scss";
 import "swiper/scss/effect-coverflow";
@@ -10,7 +10,7 @@ import "./styles.scss";
 
 export const Blog = () => {
    return (
-      <section className="blog">
+      <section className="blog" id="blog">
          <div className="container">
             <div className="blog__hat">
                <GradientTitle text="Our blog" />

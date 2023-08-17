@@ -8,4 +8,12 @@
    border-radius: 100px;
    background: linear-gradient(185deg, #FD749B 0%, #281AC8 100%);
    padding: 20px 0;
+
+   &:hover {
+      background: linear-gradient(180deg, #FD749B 0%, #281AC8 100%);
+   }
+
+   &:active {
+      background: linear-gradient(175deg, #FD749B 0%, #281AC8 100%);
+   }
 }
