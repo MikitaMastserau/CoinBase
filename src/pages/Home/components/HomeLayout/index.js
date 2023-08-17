@@ -3,6 +3,7 @@ import { Welcome } from "../Welcome";
 import { Results } from "../Results";
 import { Experience } from "../Experience";
 import { Trade } from "../Trade";
+import { Blog } from "../Blog";
 import { Reviews } from "../Reviews";
 
 export const HomeLayout = () => {
@@ -13,6 +14,7 @@ export const HomeLayout = () => {
          <Results />
          <Experience />
          <Trade />
+         <Blog />
          <Reviews />
       </>
    )
