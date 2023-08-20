@@ -107,3 +107,52 @@
       }
    }
 }
+
+@media screen and (max-width: 1199px) {
+   .footer {
+      padding-top: 30px;
+
+      &__info {
+         p:first-of-type {
+            max-width: 200px;
+            padding-right: 0;
+         }
+
+         p:last-of-type {
+            padding-top: 30px;
+         }
+      }
+
+      &__photos {
+         grid-template-columns: repeat(2, 70px);
+
+         div:last-child,
+         div:nth-last-child(2),
+         div:nth-last-child(3),
+         div:nth-last-child(4) {
+            display: none;
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .footer {
+      .container {
+         max-width: 500px;
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         gap: 30px;
+      }
+
+      &__links {
+         grid-column: 1;
+         grid-row: 1;
+      }
+
+      &__contact {
+         grid-column: 2;
+         grid-row: 1;
+      }
+   }
+}
