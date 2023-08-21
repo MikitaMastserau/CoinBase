@@ -4,7 +4,7 @@
    margin-bottom: 140px;
 
    &__card {
-      width: 980px;
+      max-width: 980px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -19,6 +19,18 @@
       display: flex;
       gap: 60px;
       padding-top: 60px;
+   }
+
+   &__borderWrap {
+      width: 262px;
+      height: 226px;
+      background: linear-gradient(185deg, #FD749B 0%, #281AC8 100%);
+      border-radius: 16px;
+      padding: 2px;
+
+      &:last-child img {
+         padding: 9px 0;
+      }
 
       button {
          width: 100%;
@@ -37,16 +49,38 @@
          }
       }
    }
+}
 
-   &__borderWrap {
-      width: 262px;
-      height: 226px;
-      background: linear-gradient(185deg, #FD749B 0%, #281AC8 100%);
-      border-radius: 16px;
-      padding: 2px;
+@media screen and (max-width: 1199px) {
+   .trade {
+      padding: 100px 30px 0;
+      margin-bottom: 100px;
 
-      &:last-child img {
-         padding: 9px 0;
+      &__card {
+         max-width: 750px;
+         padding: 60px 0;
+      }
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .trade {
+      &__card {
+         max-width: 350px;
+      }
+
+      &__btns {
+         flex-direction: column;
+         gap: 40px;
+      }
+
+      &__borderWrap {
+         width: 200px;
+         height: 172px;
+
+         button {
+            gap: 30px;
+         }
       }
    }
 }

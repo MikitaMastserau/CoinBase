@@ -1,13 +1,14 @@
-.container {
-   width: 1200px;
-   display: flex;
-   padding: 0 15px;
-   margin: 0 auto;
-}
-
 .main {
    background: url(../../../../static/images/mainCover.png) no-repeat center center / cover;
    padding: 60px 0 170px;
+
+   .container {
+      width: 1200px;
+      display: flex;
+      align-items: flex-start;
+      padding: 0 15px;
+      margin: 0 auto;
+   }
 
    &__content {
       padding: 60px 0 0;
@@ -34,6 +35,38 @@
          border-radius: 100px;
          background-color: #FFF;
          padding: 20px 0;
+      }
+   }
+}
+
+@media screen and (max-width: 1199px) {
+   .main {
+      .container {
+         width: 100%;
+         justify-content: center;
+         align-items: center;
+
+         >img {
+            width: 400px;
+         }
+      }
+
+      &__content {
+         padding: 0;
+         max-width: 500px;
+      }
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .main {
+      .container {
+         flex-direction: column;
+
+         >img {
+            width: 340px;
+            padding-bottom: 40px;
+         }
       }
    }
 }
