@@ -1,10 +1,10 @@
-.blogContainer {
-   max-width: 1200px;
-   padding: 0 15px;
-   margin: 0 auto;
-}
-
 .blog {
+   .blogContainer {
+      max-width: 1200px;
+      padding: 0 15px;
+      margin: 0 auto;
+   }
+
    &__hat {
       display: flex;
       flex-direction: column;
@@ -91,4 +91,37 @@
 
 .swiper-slide-active {
    filter: grayscale(0) opacity(1);
+}
+
+@media screen and (max-width: 1199px) {
+   .blog {
+      &__hat p {
+         padding: 30px 0;
+      }
+   }
+
+   .swiper-3d {
+      perspective: 340px;
+   }
+
+   .swiper-slide>div {
+      width: 400px;
+      height: 308px;
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .blog {
+      &__hat p {
+         padding: 30px 0 0;
+      }
+   }
+
+   .swiper-3d {
+      perspective: 130px;
+   }
+
+   .swiper-slide>div {
+      transform: scale(.7);
+   }
 }
