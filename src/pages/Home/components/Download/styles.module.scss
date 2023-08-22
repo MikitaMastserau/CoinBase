@@ -40,6 +40,7 @@
    &__phones {
       width: 600px;
       display: flex;
+      justify-content: center;
       gap: 20px;
       margin: 125px auto 0;
       position: relative;
@@ -48,6 +49,40 @@
          position: absolute;
          bottom: 255px;
          left: -220px;
+      }
+   }
+}
+
+@media screen and (max-width: 1199px) {
+   .download {
+      &__content {
+         margin: 0 0 190px;
+      }
+
+      &__phones {
+         img:first-of-type {
+            display: none;
+         }
+
+         img {
+            width: 230px;
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .download {
+      &__content {
+         margin: 0 0 40px;
+      }
+
+      &__phones {
+         width: 100%;
+
+         img {
+            width: 160px;
+         }
       }
    }
 }

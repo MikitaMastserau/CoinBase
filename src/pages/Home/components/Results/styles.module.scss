@@ -50,6 +50,7 @@
 @media screen and (max-width: 1199px) {
    .money {
       padding: 250px 15px 170px;
+      margin-top: -80px;
 
       &__info {
          width: 100%;
@@ -62,6 +63,7 @@
 @media screen and (max-width: 767px) {
    .money {
       padding: 100px 15px 100px;
+      margin-top: 0;
 
       &__info {
          max-width: 400px;

@@ -20,6 +20,8 @@
 
 @media screen and (max-width: 1199px) {
    .welcome {
+      margin-top: -30px;
+
       .container {
          width: 100%;
          flex-direction: column;
@@ -35,6 +37,8 @@
 
 @media screen and (max-width: 767px) {
    .welcome {
+      margin-top: -80px;
+
       .container>img {
          max-width: 340px;
       }
