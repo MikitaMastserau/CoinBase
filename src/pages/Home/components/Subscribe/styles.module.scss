@@ -33,3 +33,21 @@
       }
    }
 }
+
+@media screen and (max-width: 1199px) {
+   .subs {
+      &__email>div input {
+         width: 300px;
+      }
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .subs {
+      &__email {
+         flex-direction: column;
+         align-items: center;
+         padding: 10px 0 60px;
+      }
+   }
+}
