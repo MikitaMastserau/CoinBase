@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CoinBase/static/css/main.507f8c6e.css",
-    "main.js": "/CoinBase/static/js/main.e85664a2.js",
+    "main.css": "/CoinBase/static/css/main.02c6d822.css",
+    "main.js": "/CoinBase/static/js/main.3c029049.js",
     "static/media/reviewsCover.png": "/CoinBase/static/media/reviewsCover.660d4db6ab4715bf051e.png",
     "static/media/mainCover.png": "/CoinBase/static/media/mainCover.7fe6eaecdb0e69e41e97.png",
     "static/media/moneyCover.png": "/CoinBase/static/media/moneyCover.d06d65f2e85ff332d966.png",
@@ -23,16 +23,16 @@
     "static/media/bubble2.svg": "/CoinBase/static/media/bubble2.3b264dd05cf31a1231b2e2770c6f1b39.svg",
     "static/media/bubble1.svg": "/CoinBase/static/media/bubble1.9a03f899fad43f06e5e4755fc0417e08.svg",
     "static/media/twitterIcon.svg": "/CoinBase/static/media/twitterIcon.0c875e6cb7f237b35d0db662228d2b6c.svg",
-    "index.html": "/CoinBase/index.html",
     "static/media/gift.svg": "/CoinBase/static/media/gift.74e81862a5b7ba34808a098c2168c46b.svg",
     "static/media/googleIcon.svg": "/CoinBase/static/media/googleIcon.0c707e003a53f5eab34059fc04dc0104.svg",
+    "index.html": "/CoinBase/index.html",
     "static/media/facebookIcon.svg": "/CoinBase/static/media/facebookIcon.03c29e7bb14c05099917b9ca6ae86de7.svg",
     "static/media/trigonIcon.svg": "/CoinBase/static/media/trigonIcon.661ee9a3f05a499979d35e31e365b817.svg",
-    "main.507f8c6e.css.map": "/CoinBase/static/css/main.507f8c6e.css.map",
-    "main.e85664a2.js.map": "/CoinBase/static/js/main.e85664a2.js.map"
+    "main.02c6d822.css.map": "/CoinBase/static/css/main.02c6d822.css.map",
+    "main.3c029049.js.map": "/CoinBase/static/js/main.3c029049.js.map"
   },
   "entrypoints": [
-    "static/css/main.507f8c6e.css",
-    "static/js/main.e85664a2.js"
+    "static/css/main.02c6d822.css",
+    "static/js/main.3c029049.js"
   ]
 }
